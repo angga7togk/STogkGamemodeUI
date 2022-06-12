@@ -9,19 +9,19 @@ This plugin allows you to easily change the game mode.
 # Permissions
 ```
 permissions:
-  gamemodeui.use:
+  stogk.gamemodeui.use:
     description: STogkGamemodeUI Permission
     default: op
-  gamemodeui.use.creative:
+  stogk.gamemodeui.use.creative:
     description: STogkGamemodeUI Creative Permission
     default: op
-  gamemodeui.use.survival:
+  stogk.gamemodeui.use.survival:
     description: STogkGamemodeUI Survival Permission
     default: op
-  gamemodeui.use.adventure:
+  stogk.gamemodeui.use.adventure:
     description: STogkGamemodeUI Adventure Permission
     default: op
-  gamemodeui.use.spectator:
+  stogk.gamemodeui.use.spectator:
     description: STogkGamemodeUI Spectator Permission
     default: op
 ```
