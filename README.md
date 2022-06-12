@@ -1,28 +1,28 @@
-# 7TogkGamemodeUI
+# STogkGamemodeUI
 This plugin allows you to easily change the game mode.
 
 # Commands
 |**Command**|**Description**|
 |-----------|---------------|
-|`/gmdui`|Open the GamemodeUI|
+|`/gmdui`|Open the STogkGamemodeUI|
 
 # Permissions
 ```
 permissions:
   gamemodeui.use:
-    description: GamemodeUI Permission
+    description: STogkGamemodeUI Permission
     default: op
   gamemodeui.use.creative:
-    description: GamemodeUI Creative Permission
+    description: STogkGamemodeUI Creative Permission
     default: op
   gamemodeui.use.survival:
-    description: GamemodeUI Survival Permission
+    description: STogkGamemodeUI Survival Permission
     default: op
   gamemodeui.use.adventure:
-    description: GamemodeUI Adventure Permission
+    description: STogkGamemodeUI Adventure Permission
     default: op
   gamemodeui.use.spectator:
-    description: GamemodeUI Spectator Permission
+    description: STogkGamemodeUI Spectator Permission
     default: op
 ```
 
