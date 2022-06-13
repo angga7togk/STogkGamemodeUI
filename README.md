@@ -9,7 +9,7 @@ This plugin allows you to easily change the game mode.
 # Permissions
 ```
 permissions:
-  gamemodeui.use:
+  stogkgamemodeui.use:
     description: STogkGamemodeUI Permission
     default: op
   stogkgamemodeui.use.creative:
