@@ -37,7 +37,7 @@ class Main extends PluginBase {
             $target = $player->getName();
             switch($data){
                 case 0:
-                  if($player->hasPermission("gmdui.use.creative")){
+                  if($player->hasPermission("stogkgamemodeui.use.creative")){
                     $player->setGamemode(GameMode::CREATIVE());
                     $player->sendMessage("Changed gamemode to Creative mode");
                   } else {
@@ -46,7 +46,7 @@ class Main extends PluginBase {
                 break;
                 
                 case 1:
-                  if($player->hasPermission("gmdui.use.survival")){
+                  if($player->hasPermission("stogkgamemodeui.use.survival")){
                     $player->setGamemode(GameMode::SURVIVAL());
                     $player->sendMessage("Changed gamemode to Survival mode");
                   } else {
@@ -55,7 +55,7 @@ class Main extends PluginBase {
                 break;
                 
                 case 2:
-                  if($player->hasPermission("gmdui.use.adventure")){
+                  if($player->hasPermission("stogkgamemodeui.use.adventure")){
                     $player->setGamemode(GameMode::ADVENTURE());
                     $player->sendMessage("Changed gamemode to Adventure mode");
                   } else {
@@ -64,7 +64,7 @@ class Main extends PluginBase {
                 break;
                 
                 case 3:
-                  if($player->hasPermission("gmdui.use.spectator")){
+                  if($player->hasPermission("stogkgamemodeui.use.spectator")){
                     $player->setGamemode(GameMode::SPECTATOR());
                     $player->sendMessage("Changed gamemode to Spectator mode");
                   } else {
