@@ -9,21 +9,21 @@ description: "Open The STogkGamemodeUI"
 commands:
   gmdui:
     description: "Open The STogkGamemodeUI"
-    permission: gamemodeui.use
+    permission: stogkgamemodeui.use
 
 permissions:
-  gamemodeui.use:
+  stogkgamemodeui.use:
     description: STogkGamemodeUI Permission
     default: op
-  gamemodeui.use.creative:
+  stogkgamemodeui.use.creative:
     description: STogkGamemodeUI Creative Permission
     default: op
-  gamemodeui.use.survival:
+  stogkgamemodeui.use.survival:
     description: STogkGamemodeUI Survival Permission
     default: op
-  gamemodeui.use.adventure:
+  stogkgamemodeui.use.adventure:
     description: STogkGamemodeUI Adventure Permission
     default: op
-  gamemodeui.use.spectator:
+  stogkgamemodeui.use.spectator:
     description: STogkGamemodeUI Spectator Permission
     default: op
